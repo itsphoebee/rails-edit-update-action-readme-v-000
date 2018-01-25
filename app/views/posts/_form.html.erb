@@ -1,11 +1,3 @@
-<%= form_for @post do |post| %>
-
-  <%= post.text_field :title %>
-  <%= f.submit 'Save' %>
-
-<% end %>
-
-
 <%= form_tag @post do |post|%>
   <label>Post title:</label><br>
   <%= post.text_field :title %><br>
